@@ -1,0 +1,29 @@
+{
+  "retrieved": "2026-10-09",
+  "eval_vintage": "2026-10-08",
+  "registration_vintage": "2026-07-05",
+  "eval_raw_rows": 6902,
+  "unique_buildings_evaluated": 3593,
+  "joined_on_rsn": 3591,
+  "buildings_in_index": 3593,
+  "scored_buildings": 3593,
+  "operators": 831,
+  "blank_operator_name_rows": 473,
+  "fuzzy_merges_logged": 17,
+  "sources": [
+    {
+      "name": "Apartment Building Evaluation",
+      "url": "https://open.toronto.ca/dataset/apartment-building-evaluation/"
+    },
+    {
+      "name": "Apartment Building Registration",
+      "url": "https://open.toronto.ca/dataset/apartment-building-registration/"
+    }
+  ],
+  "notes": [
+    "Operator = property management company from the registration file, not the legal owner.",
+    "Evaluations deduped to latest per RSN (building registration number).",
+    "Door-sign bands: green 85-100%, yellow 70-84%, red 0-69%.",
+    "Blank management-company names are kept as 'unattributed', counted here, and shown separately; they are not dropped."
+  ]
+}
