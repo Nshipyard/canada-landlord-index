@@ -72,6 +72,7 @@ const en = {
     title: "Where the ratings land.",
     sub: "Every evaluated building in Toronto, coloured by its RentSafeTO door sign. Red clusters mark where the lowest-scoring buildings sit.",
     green: "Green (85-100)", yellow: "Yellow (70-84)", red: "Red (below 70)",
+    operator: "Operator",
     buildings: "buildings plotted",
   },
   methodology: {
@@ -208,6 +209,7 @@ const fr: Dict = {
     title: "Où les notes tombent.",
     sub: "Chaque immeuble évalué de Toronto, colorié selon son affiche RentSafeTO. Les grappes rouges marquent où se trouvent les immeubles les moins bien notés.",
     green: "Vert (85-100)", yellow: "Jaune (70-84)", red: "Rouge (moins de 70)",
+    operator: "Exploitant",
     buildings: "immeubles tracés",
   },
   methodology: {
